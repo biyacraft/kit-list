@@ -2,7 +2,6 @@ import xspiral from "@/assets/images/xspiral.png";
 import spline from "@/assets/images/spline.png";
 import ayalkbetsIcon from "@/assets/images/abio.ico";
 import iconmetric from "@/assets/images/iconmetric.png";
-import pikaicons from "@/assets/images/pickaicons.png";
 import minimalmockups from "@/assets/images/minimalmockups.png";
 
 export const threeDKit = [
@@ -33,17 +32,6 @@ export const threeDKit = [
         image : iconmetric,
         tags: ["3D"],
         url: 'https://iconmetric.com',
-        author: {
-            name: "Abakiya",
-            url: "https://abakiya.vercel.app",
-            avatar: ayalkbetsIcon,
-          },
-    },
-    {
-        title: 'Pika Icons',
-        image : pikaicons,
-        tags: ["3D"],
-        url: 'https://pikaicons.com',
         author: {
             name: "Abakiya",
             url: "https://abakiya.vercel.app",
