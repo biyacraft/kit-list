@@ -2,7 +2,7 @@ import xspiral from "@/assets/images/xspiral.png";
 import spline from "@/assets/images/spline.png";
 import ayalkbetsIcon from "@/assets/images/abio.ico";
 import iconmetric from "@/assets/images/iconmetric.png";
-import pikaicons from "@/assets/images/pickicons.png";
+import pikaicons from "@/assets/images/pickaicons.png";
 import minimalmockups from "@/assets/images/minimalmockups.png";
 
 export const threeDKit = [
