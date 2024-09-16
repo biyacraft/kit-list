@@ -14,7 +14,7 @@ import { Separator } from "@/components/ui/separator";
 import { useTheme } from "next-themes";
 
 import {EyeOpenIcon, GitHubLogoIcon, HeartFilledIcon, MoonIcon, SunIcon} from "@radix-ui/react-icons";
-import {Coffee, MailCheckIcon, MailIcon } from "lucide-react";
+import {Coffee, MailCheckIcon } from "lucide-react";
 import { CopyButton } from "./copy-button";
 
 

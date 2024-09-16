@@ -2,14 +2,15 @@ import primereact from "@/assets/images/primereact.png";
 import ayalkbetsIcon from "@/assets/images/abio.ico";
 import tailusui from "@/assets/images/tailusui.png";
 import victorynative from "@/assets/images/victorynative.png";
+import okaydev from "@/assets/images/okaydev.png";
 
 
-export const frontendKit = [
+export const uiuxKit = [
     {
-        title: 'Primereact UI Library',
-        image : primereact,
-        tags: ["Frontend", "UI"],
-        url: 'https://primereact.dev',
+        title: 'Okay Dev',
+        image : okaydev,
+        tags: ["UI/UX"],
+        url: 'https://okaydev.co/',
         author: {
             name: "Abakiya",
             url: "https://abakiya.vercel.app",
