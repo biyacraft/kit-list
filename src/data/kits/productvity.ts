@@ -1,15 +1,14 @@
-import primereact from "@/assets/images/primereact.png";
 import ayalkbetsIcon from "@/assets/images/abio.ico";
-import tailusui from "@/assets/images/tailusui.png";
-import backstage from "@/assets/images/backstage.png";
-
+import fumadocs from "@/assets/images/fumadocs.png";
+import dupe from "@/assets/images/dupe.png";
+import polar from "@/assets/images/polar.png";
 
 export const productivityKit = [
     {
-        title: 'Backstage framework ',
-        image : backstage,
+        title: 'Fuma Docs',
+        image : fumadocs,
         tags: ["Productivity"],
-        url: 'https://backstage.io/',
+        url: 'https://fumadocs.vercel.app/',
         author: {
             name: "Abakiya",
             url: "https://abakiya.vercel.app",
@@ -17,10 +16,10 @@ export const productivityKit = [
           },
     },
     {
-        title: 'Tailus UI React',
-        image : tailusui,
-        tags: ["Frontend", "UI"],
-        url: 'https://ui.tailus.io/',
+        title: 'Dupe',
+        image : dupe,
+        tags: ["Productivity"],
+        url: 'https://dupe.com',
         author: {
             name: "Abakiya",
             url: "https://abakiya.vercel.app",
@@ -28,36 +27,14 @@ export const productivityKit = [
           },
     },
     {
-        title: 'Primereact UI Library',
-        image : primereact,
-        tags: ["Frontend"],
-        url: 'http://primereact.dev',
+        title: 'Polar',
+        image : polar,
+        tags: ["Productivity"],
+        url: 'http://polar.sh',
         author: {
             name: "Abakiya",
             url: "https://abakiya.vercel.app",
             avatar: ayalkbetsIcon,
           },
     },
-    {
-        title: 'Primereact UI Library',
-        image : primereact,
-        tags: ["Frontend"],
-        url: 'http://primereact.dev',
-        author: {
-            name: "Abakiya",
-            url: "https://abakiya.vercel.app",
-            avatar: ayalkbetsIcon,
-          },
-    },
-    {
-        title: 'Primereact UI Library',
-        image : primereact,
-        tags: ["Frontend"],
-        url: 'http://primereact.dev',
-        author: {
-            name: "Abakiya",
-            url: "https://abakiya.vercel.app",
-            avatar: ayalkbetsIcon,
-          },
-    }
 ]

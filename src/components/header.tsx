@@ -14,7 +14,7 @@ import { Separator } from "@/components/ui/separator";
 import { useTheme } from "next-themes";
 
 import {EyeOpenIcon, GitHubLogoIcon, HeartFilledIcon, MoonIcon, SunIcon} from "@radix-ui/react-icons";
-import {Coffee, MailCheckIcon } from "lucide-react";
+import {Coffee, MailIcon } from "lucide-react";
 import { CopyButton } from "./copy-button";
 
 
@@ -67,15 +67,12 @@ export function Header() {
             </DialogHeader>
 
             <DialogDescription>
-              
               The Kits listed here is what I mostly use for my Projects <br />
               <br />
-              
-              Feel free to create your own kit list using by contributing to 
+                Feel free to create your own kit list by contributing on
               <a href="https://github.com/abakiya/kit-list" className="underline">
-                kit-list repository
+              GitHub. 
               </a>
-              on GitHub.
               <br />
               <br />
               <br />
@@ -95,7 +92,7 @@ export function Header() {
                 <div>by Abakiya</div>
               </div>
               <div className="flex justify-center items-center gap-2">
-                <MailCheckIcon className="size-4" />
+                <MailIcon className="size-4" />
                 <div>ayalkbettesfahun@gmail.com</div>
               <CopyButton content={"ayalkbettesfahun@gmail.com"} />
               </div>

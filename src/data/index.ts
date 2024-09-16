@@ -4,6 +4,7 @@ import { backendKit } from "./kits/backend";
 import { databaseKit } from "./kits/database";
 import { productivityKit } from "./kits/productvity";
 import { uiuxKit } from "./kits/uiux";
+import { portfolioKit } from "./kits/portfolio";
 
 export const kits = [
   ...toolsKit,
@@ -12,6 +13,7 @@ export const kits = [
   ...databaseKit,
   ...productivityKit,
   ...uiuxKit,
+  ...portfolioKit,
 ];
 
 export function getSections() {

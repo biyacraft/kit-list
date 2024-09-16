@@ -3,8 +3,6 @@ import { Header } from "@/components/header";
 import { Button } from "@/components/ui/button";
 import { Toaster } from "@/components/ui/sonner";
 import { cn } from "@/lib/utils";
-import { GeistMono } from "geist/font/mono";
-import { GeistSans } from "geist/font/sans";
 import { PlusIcon } from "lucide-react";
 import type { Metadata } from "next";
 import { ThemeProvider } from "next-themes";
@@ -36,7 +34,7 @@ export default function RootLayout({
       lang="en"
       suppressHydrationWarning
       className={cn(
-        `${GeistSans.variable} ${GeistMono.variable}`,
+        
         "whitespace-pre-line antialiased bg-background text-foreground",
       )}
     >

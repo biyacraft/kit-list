@@ -46,7 +46,7 @@ export function MiniMenu() {
         setSections(allSections);
     };
     return (
-        <div className="">
+        <div className="z-20">
             {menu === "appear" ? 
             <>
                 <aside className="w-48 p-4 flex flex-col justify-end md:hidden fixed right-8 top-14 mt-0.4 bg-black bg-opacity-60 dark:bg-[#242422] dark:bg-opacity-90 rounded-b-2xl">

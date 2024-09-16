@@ -6,7 +6,7 @@ export const databaseKit = [
     {
         title: 'Primereact UI Library',
         image : primereact,
-        tags: ["Database", "UI"],
+        tags: ["Database"],
         url: 'http://primereact.dev',
         author: {
             name: "Abakiya",
