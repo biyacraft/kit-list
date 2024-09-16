@@ -8,7 +8,7 @@ import twingate from "@/assets/images/twingate.png";
 import seesaw from "@/assets/images/seesaw.png";
 import supercreative from "@/assets/images/supercreative.png";
 import superpower from "@/assets/images/superpower.png";
-
+import openhomes from "@/assets/images/openhomes.png";
 
 export type Kit = {
     title?: string;
@@ -25,7 +25,7 @@ export const toolsKit = [
         title: 'Image Src',
         image : imgsrc,
         tags: ["Tools"],
-        url: 'http://imgsrc.io',
+        url: 'https://imgsrc.io',
         author: {
             name: "Abakiya",
             url: "https://abakiya.vercel.app",
@@ -36,7 +36,7 @@ export const toolsKit = [
         title: 'Decagon AI',
         image : decagon,
         tags: ["Tools"],
-        url: 'http://decagon.ai',
+        url: 'https://decagon.ai',
         author: {
             name: "Abakiya",
             url: "https://abakiya.vercel.app",
@@ -47,7 +47,7 @@ export const toolsKit = [
         title: 'GSAP',
         image : gsap,
         tags: ["Tools"],
-        url: 'http://gsap.com',
+        url: 'https://gsap.com',
         author: {
             name: "Abakiya",
             url: "https://abakiya.vercel.app",
@@ -58,7 +58,7 @@ export const toolsKit = [
         title: 'Twingate',
         image : twingate,
         tags: ["Tools"],
-        url: 'http://twingate.com',
+        url: 'https://twingate.com',
         author: {
             name: "Abakiya",
             url: "https://abakiya.vercel.app",
@@ -69,7 +69,7 @@ export const toolsKit = [
         title: 'Primereact UI Library',
         image : primereact,
         tags: ["Tools"],
-        url: 'http://primereact.dev',
+        url: 'https://primereact.dev',
         author: {
             name: "Abakiya",
             url: "https://abakiya.vercel.app",
@@ -80,7 +80,7 @@ export const toolsKit = [
       title: 'See + Saw',
       image : seesaw,
       tags: ["Tools"],
-      url: 'http://seesaw.website',
+      url: 'https://seesaw.website',
       author: {
           name: "Abakiya",
           url: "https://abakiya.vercel.app",
@@ -91,7 +91,7 @@ export const toolsKit = [
       title: 'Supercreative',
       image : supercreative,
       tags: ["Tools"],
-      url: 'http://supercreative.design',
+      url: 'https://supercreative.design',
       author: {
           name: "Abakiya",
           url: "https://abakiya.vercel.app",
@@ -102,7 +102,18 @@ export const toolsKit = [
       title: 'Superpower',
       image : superpower,
       tags: ["Tools"],
-      url: 'http://superpower.com',
+      url: 'https://superpower.com',
+      author: {
+          name: "Abakiya",
+          url: "https://abakiya.vercel.app",
+          avatar: ayalkbetsIcon,
+        },
+    },
+    {
+      title: 'Open Homes',
+      image : openhomes,
+      tags: ["Tools"],
+      url: 'https://openhomes.xyz',
       author: {
           name: "Abakiya",
           url: "https://abakiya.vercel.app",

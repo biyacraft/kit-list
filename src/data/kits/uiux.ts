@@ -1,4 +1,3 @@
-import primereact from "@/assets/images/primereact.png";
 import ayalkbetsIcon from "@/assets/images/abio.ico";
 import tailusui from "@/assets/images/tailusui.png";
 import okaydev from "@/assets/images/okaydev.png";
@@ -10,7 +9,8 @@ import bentogrids from "@/assets/images/bentogrids.png";
 import godly from "@/assets/images/godly.png";
 import svgl from "@/assets/images/svgl.png";
 import logodatabase from "@/assets/images/logodatabase.png";
-
+import blender from "@/assets/images/blender.png";
+import animata from "@/assets/images/animata.png";
 
 export const uiuxKit = [
     {
@@ -38,7 +38,7 @@ export const uiuxKit = [
     {
         title: 'Tailus UI React',
         image : tailusui,
-        tags: ["Frontend", "UI/UX"],
+        tags: ["Frontend"],
         url: 'https://ui.tailus.io/',
         author: {
             name: "Abakiya",
@@ -49,19 +49,8 @@ export const uiuxKit = [
     {
         title: 'Luxe UI',
         image : luxeui,
-        tags: ["Frontend", "UI/UX"],
-        url: 'http://luxeui.com',
-        author: {
-            name: "Abakiya",
-            url: "https://abakiya.vercel.app",
-            avatar: ayalkbetsIcon,
-          },
-    },
-    {
-        title: 'Primereact UI Library',
-        image : primereact,
-        tags: ["Frontend"],
-        url: 'http://primereact.dev',
+        tags: ["UI/UX"],
+        url: 'https://luxeui.com',
         author: {
             name: "Abakiya",
             url: "https://abakiya.vercel.app",
@@ -72,7 +61,7 @@ export const uiuxKit = [
         title: 'Next UI',
         image : nextui,
         tags: ["UI/UX"],
-        url: 'http://nextui.org',
+        url: 'https://nextui.org',
         author: {
             name: "Abakiya",
             url: "https://abakiya.vercel.app",
@@ -83,7 +72,7 @@ export const uiuxKit = [
         title: 'UI Verse',
         image : uiverse,
         tags: ["UI/UX"],
-        url: 'http://uiverse.io',
+        url: 'https://uiverse.io',
         author: {
             name: "Abakiya",
             url: "https://abakiya.vercel.app",
@@ -94,7 +83,7 @@ export const uiuxKit = [
         title: 'UI Ibelick',
         image : ibelickui,
         tags: ["UI/UX"],
-        url: 'http://ui.ibelick.com',
+        url: 'https://ui.ibelick.com',
         author: {
             name: "Abakiya",
             url: "https://abakiya.vercel.app",
@@ -105,7 +94,7 @@ export const uiuxKit = [
         title: 'Godly',
         image : godly,
         tags: ["UI/UX"],
-        url: 'http://godly.website',
+        url: 'https://godly.website',
         author: {
             name: "Abakiya",
             url: "https://abakiya.vercel.app",
@@ -116,7 +105,7 @@ export const uiuxKit = [
         title: 'Svgl',
         image : svgl,
         tags: ["UI/UX"],
-        url: 'http://svgl.app',
+        url: 'https://svgl.app',
         author: {
             name: "Abakiya",
             url: "https://abakiya.vercel.app",
@@ -127,7 +116,29 @@ export const uiuxKit = [
         title: 'Logo Database',
         image : logodatabase,
         tags: ["UI/UX"],
-        url: 'http://logodatabase.com',
+        url: 'https://logodatabase.com',
+        author: {
+            name: "Abakiya",
+            url: "https://abakiya.vercel.app",
+            avatar: ayalkbetsIcon,
+          },
+    },
+    {
+        title: 'Blender',
+        image : blender,
+        tags: ["UI/UX"],
+        url: 'https://blender.org',
+        author: {
+            name: "Abakiya",
+            url: "https://abakiya.vercel.app",
+            avatar: ayalkbetsIcon,
+          },
+    },
+    {
+        title: 'Animata',
+        image : animata,
+        tags: ["UI/UX"],
+        url: 'https://animata.design',
         author: {
             name: "Abakiya",
             url: "https://abakiya.vercel.app",

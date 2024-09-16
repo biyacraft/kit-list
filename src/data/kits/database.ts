@@ -7,7 +7,7 @@ export const databaseKit = [
         title: 'Primereact UI Library',
         image : primereact,
         tags: ["Database"],
-        url: 'http://primereact.dev',
+        url: 'https://primereact.dev',
         author: {
             name: "Abakiya",
             url: "https://abakiya.vercel.app",
@@ -18,7 +18,7 @@ export const databaseKit = [
         title: 'Primereact UI Library',
         image : primereact,
         tags: ["Database"],
-        url: 'http://primereact.dev',
+        url: 'https://primereact.dev',
         author: {
             name: "Abakiya",
             url: "https://abakiya.vercel.app",
@@ -29,7 +29,7 @@ export const databaseKit = [
         title: 'Primereact UI Library',
         image : primereact,
         tags: ["Database"],
-        url: 'http://primereact.dev',
+        url: 'https://primereact.dev',
         author: {
             name: "Abakiya",
             url: "https://abakiya.vercel.app",
@@ -40,7 +40,7 @@ export const databaseKit = [
         title: 'Primereact UI Library',
         image : primereact,
         tags: ["Database"],
-        url: 'http://primereact.dev',
+        url: 'https://primereact.dev',
         author: {
             name: "Abakiya",
             url: "https://abakiya.vercel.app",
@@ -51,7 +51,7 @@ export const databaseKit = [
         title: 'Primereact UI Library',
         image : primereact,
         tags: ["Database"],
-        url: 'http://primereact.dev',
+        url: 'https://primereact.dev',
         author: {
             name: "Abakiya",
             url: "https://abakiya.vercel.app",

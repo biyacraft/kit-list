@@ -1,4 +1,5 @@
 import "./globals.css";
+import Script from 'next/script';
 import { Header } from "@/components/header";
 import { Button } from "@/components/ui/button";
 import { Toaster } from "@/components/ui/sonner";
@@ -38,6 +39,19 @@ export default function RootLayout({
         "whitespace-pre-line antialiased bg-background text-foreground",
       )}
     >
+      {/* Google Analytics Script */}
+      <Script
+        id="google-analytics"
+        strategy="afterInteractive" // Ensures the script runs after the page is interactive
+      >
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-EMG5PC9MVV');
+        `}
+      </Script>
       <body>
         <ThemeProvider
           attribute="class"

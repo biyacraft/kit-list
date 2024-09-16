@@ -5,6 +5,7 @@ import { databaseKit } from "./kits/database";
 import { productivityKit } from "./kits/productvity";
 import { uiuxKit } from "./kits/uiux";
 import { portfolioKit } from "./kits/portfolio";
+import { threeDKit } from "./kits/threed";
 
 export const kits = [
   ...toolsKit,
@@ -14,6 +15,7 @@ export const kits = [
   ...productivityKit,
   ...uiuxKit,
   ...portfolioKit,
+  ...threeDKit,
 ];
 
 export function getSections() {

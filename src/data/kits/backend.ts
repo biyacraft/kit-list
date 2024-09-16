@@ -1,7 +1,7 @@
-import primereact from "@/assets/images/primereact.png";
 import ayalkbetsIcon from "@/assets/images/abio.ico";
 import authkit from "@/assets/images/authkit.png";
 import hoppscotch from "@/assets/images/hoppscotch.png";
+import evervault from "@/assets/images/evervault.png";
 
 
 export const backendKit = [
@@ -9,7 +9,7 @@ export const backendKit = [
         title: 'AuthKit',
         image : authkit,
         tags: ["Backend"],
-        url: 'http://authkit.com',
+        url: 'https://authkit.com',
         author: {
             name: "Abakiya",
             url: "https://abakiya.vercel.app",
@@ -20,7 +20,7 @@ export const backendKit = [
         title: 'Hipposcotch',
         image : hoppscotch,
         tags: ["Backend"],
-        url: 'http://hoppscotch.com',
+        url: 'https://hoppscotch.com',
         author: {
             name: "Abakiya",
             url: "https://abakiya.vercel.app",
@@ -28,36 +28,14 @@ export const backendKit = [
           },
     },
     {
-        title: 'Primereact UI Library',
-        image : primereact,
+        title: 'Evervault',
+        image : evervault,
         tags: ["Backend"],
-        url: 'http://primereact.dev',
+        url: 'https://evervault.com',
         author: {
             name: "Abakiya",
             url: "https://abakiya.vercel.app",
             avatar: ayalkbetsIcon,
           },
     },
-    {
-        title: 'Primereact UI Library',
-        image : primereact,
-        tags: ["Backend"],
-        url: 'http://primereact.dev',
-        author: {
-            name: "Abakiya",
-            url: "https://abakiya.vercel.app",
-            avatar: ayalkbetsIcon,
-          },
-    },
-    {
-        title: 'Primereact UI Library',
-        image : primereact,
-        tags: ["Backend"],
-        url: 'http://primereact.dev',
-        author: {
-            name: "Abakiya",
-            url: "https://abakiya.vercel.app",
-            avatar: ayalkbetsIcon,
-          },
-    }
 ]
