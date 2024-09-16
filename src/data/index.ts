@@ -5,7 +5,7 @@ import { databaseKit } from "./kits/database";
 import { productivityKit } from "./kits/productvity";
 import { uiuxKit } from "./kits/uiux";
 import { portfolioKit } from "./kits/portfolio";
-import { threeDKit } from "./kits/threed";
+import { threeDKit } from "@/data/kits/threed";
 
 export const kits = [
   ...toolsKit,

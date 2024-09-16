@@ -69,7 +69,6 @@ export function Header() {
               <br />
               <br />
               <br />
-              
               <div className="flex justify-center items-center gap-2">
                 <MailIcon className="size-6 p-4" />
                 <div className="p-4">
