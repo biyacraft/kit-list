@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Kit List
 
-## Getting Started
+**Kit List** is a a curated list of resources that enhance workflows for  productivity, development, design, and other daily activities.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- Tools for productivity
+- Resources for development
+- Design tools and resources
+- Daily activity management
+- Open for contributions
+
+## How to Contribute
+
+We welcome contributions to the Kit List! If you have a useful tool or resource you'd like to share, you can contribute by adding it to the **Kit List** repository.
+
+### Contribution Steps
+
+1. **Fork the repository** to your GitHub account.
+2. **Clone the repository** to your local machine:
+   ```bash
+   git clone https://github.com/your-username/kit-list.git
+   cd kit-list```
+3. **Navigate to the src/data/kits directory** This is where the list of kits is stored.
 ```
+cd src/data/kits
+```
+4. **Create a new .ts file for your kit** Name the file according to the kit's name, using lowercase and (e.g. myawesomekit.ts).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5. **Structure your file similarly to the existing ones in the kits directory** Here’s an example format:
+```
+import animata from "@/assets/images/animata.png";
+import svgl from "@/assets/images/svgl.png";
+export const uiuxKit = [
+    {
+        title: 'Animata',
+        image : animata,
+        tags: ["UI/UX"],
+        url: 'https://animata.design',
+        author: {
+            name: "Abakiya",
+            url: "https://abakiya.vercel.app",
+            avatar: ayalkbetsIcon,
+          },
+    },
+    {
+        title: 'Svgl',
+        image : svgl,
+        tags: ["UI/UX"],
+        url: 'https://svgl.app',
+        author: {
+            name: "Abakiya",
+            url: "https://abakiya.vercel.app",
+            avatar: ayalkbetsIcon,
+          },
+    },
+]
+```
+6. ***Navigate to the src/data/index.ts file*** This is where import the kit you added data. The code should look something like this:
+``` 
+export const kits = [
+  ...toolsKit,
+  ...frontendKit,
+  ...backendKit,
+  ...databaseKit,
+  ...productivityKit,
+  ...uiuxKit,
+  ...portfolioKit,
+  ...threeDKit,
+  ...yourkitname,
+];
+```
+7. ***Add an image of the website*** 
+Add an image (screenshot) of the website to the src/assets/image directory. Name the image file to match the kit's name, using lowercase (e.g., myawesomekit.png).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+8. ***Commit your changes***
+9. ***Push your changes to your GitHub fork***
+10. ***Submit a Pull Request***
