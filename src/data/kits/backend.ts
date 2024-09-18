@@ -2,7 +2,7 @@ import ayalkbetsIcon from "@/assets/images/abio.ico";
 import authkit from "@/assets/images/authkit.png";
 import hoppscotch from "@/assets/images/hoppscotch.png";
 import evervault from "@/assets/images/evervault.png";
-
+import betterauth from "@/assets/images/betterauth.png";
 
 export const backendKit = [
     {
@@ -32,6 +32,17 @@ export const backendKit = [
         image : evervault,
         tags: ["Backend"],
         url: 'https://evervault.com',
+        author: {
+            name: "Abakiya",
+            url: "https://abakiya.vercel.app",
+            avatar: ayalkbetsIcon,
+          },
+    },
+    {
+        title: 'Better Auth',
+        image : betterauth,
+        tags: ["Backend"],
+        url: 'https://better-auth.com',
         author: {
             name: "Abakiya",
             url: "https://abakiya.vercel.app",

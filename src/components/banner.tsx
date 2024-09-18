@@ -36,7 +36,6 @@ export function Banner() {
               time-track, and send invoices. ↗
             </p>
           </div>
-
           <button
             type="button"
             className="absolute right-1.5 top-1.5 text-[#878787] hidden group-hover:block"

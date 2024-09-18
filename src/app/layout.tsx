@@ -35,23 +35,11 @@ export default function RootLayout({
       lang="en"
       suppressHydrationWarning
       className={cn(
-        
+
         "whitespace-pre-line antialiased bg-background text-foreground",
       )}
     >
-      {/* Google Analytics Script */}
-      <Script
-        id="google-analytics"
-        strategy="afterInteractive" // Ensures the script runs after the page is interactive
-      >
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
 
-          gtag('config', 'G-EMG5PC9MVV');
-        `}
-      </Script>
       <body>
         <ThemeProvider
           attribute="class"
@@ -76,12 +64,21 @@ export default function RootLayout({
                 <PlusIcon className="w-4 h-4" />
               </Button>
             </a>
-              <MiniMenu />
-            
+            <MiniMenu />
+
           </div>
           <Toaster />
         </ThemeProvider>
+        <noscript>
+        <img 
+        src="https://queue.simpleanalyticscdn.com/noscript.gif" 
+        alt="" 
+        referrerPolicy="no-referrer-when-downgrade" 
+        />
+      </noscript>
       </body>
+        {/* Simple Analytics Script */}
+        <Script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></Script>
     </html>
   );
 }

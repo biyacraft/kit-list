@@ -1,13 +1,14 @@
 import primereact from "@/assets/images/primereact.png";
 import ayalkbetsIcon from "@/assets/images/abio.ico";
+import sqlstudio from "@/assets/images/sqlstudio.png";
 
 
 export const databaseKit = [
     {
-        title: 'Primereact UI Library',
-        image : primereact,
+        title: 'SQL Studio',
+        image : sqlstudio,
         tags: ["Database"],
-        url: 'https://primereact.dev',
+        url: 'https://sql-studio.onrender.com',
         author: {
             name: "Abakiya",
             url: "https://abakiya.vercel.app",

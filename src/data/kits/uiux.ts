@@ -11,6 +11,7 @@ import svgl from "@/assets/images/svgl.png";
 import logodatabase from "@/assets/images/logodatabase.png";
 import blender from "@/assets/images/blender.png";
 import animata from "@/assets/images/animata.png";
+import farmui from "@/assets/images/farmui.png";
 
 export const uiuxKit = [
     {
@@ -40,6 +41,17 @@ export const uiuxKit = [
         image : tailusui,
         tags: ["Frontend"],
         url: 'https://ui.tailus.io/',
+        author: {
+            name: "Abakiya",
+            url: "https://abakiya.vercel.app",
+            avatar: ayalkbetsIcon,
+          },
+    },
+    {
+        title: 'Farm UI',
+        image : farmui,
+        tags: ["UI/UX", "Frontend"],
+        url: 'https://farmui.com',
         author: {
             name: "Abakiya",
             url: "https://abakiya.vercel.app",
