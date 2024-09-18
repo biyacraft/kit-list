@@ -12,8 +12,81 @@ import logodatabase from "@/assets/images/logodatabase.png";
 import blender from "@/assets/images/blender.png";
 import animata from "@/assets/images/animata.png";
 import farmui from "@/assets/images/farmui.png";
+import nuxtui from "@/assets/images/nuxtui.png";
+import chakra from "@/assets/images/chakraui.png";
+import aceternity from "@/assets/images/aceternity.png";
+import radixui from "@/assets/images/radixui.png";
+import mantine from "@/assets/images/mantine.png";
+import shadcn from "@/assets/images/shadcn.png";
+
 
 export const uiuxKit = [
+    {
+        title: 'Shadcn/ui',
+        image : shadcn,
+        tags: ["UI/UX"],
+        url: 'https://ui.shadecn.com',
+        author: {
+            name: "Abakiya",
+            url: "https://abakiya.vercel.app",
+            avatar: ayalkbetsIcon,
+          },
+    },
+    {
+        title: 'Luxe UI',
+        image : luxeui,
+        tags: ["UI/UX"],
+        url: 'https://luxeui.com',
+        author: {
+            name: "Abakiya",
+            url: "https://abakiya.vercel.app",
+            avatar: ayalkbetsIcon,
+          },
+    },
+    {
+        title: 'Next UI',
+        image : nextui,
+        tags: ["UI/UX"],
+        url: 'https://nextui.org',
+        author: {
+            name: "Abakiya",
+            url: "https://abakiya.vercel.app",
+            avatar: ayalkbetsIcon,
+          },
+    },
+    {
+        title: 'Radix UI',
+        image : radixui,
+        tags: ["UI/UX"],
+        url: 'https://radix-ui.com/',
+        author: {
+            name: "Abakiya",
+            url: "https://abakiya.vercel.app",
+            avatar: ayalkbetsIcon,
+          },
+    },
+    {
+        title: 'Farm UI',
+        image : farmui,
+        tags: ["UI/UX", "Frontend"],
+        url: 'https://farmui.com',
+        author: {
+            name: "Abakiya",
+            url: "https://abakiya.vercel.app",
+            avatar: ayalkbetsIcon,
+          },
+    },
+    {
+        title: 'Animata',
+        image : animata,
+        tags: ["UI/UX"],
+        url: 'https://animata.design',
+        author: {
+            name: "Abakiya",
+            url: "https://abakiya.vercel.app",
+            avatar: ayalkbetsIcon,
+          },
+    },
     {
         title: 'Bentogrids',
         image : bentogrids,
@@ -48,39 +121,6 @@ export const uiuxKit = [
           },
     },
     {
-        title: 'Farm UI',
-        image : farmui,
-        tags: ["UI/UX", "Frontend"],
-        url: 'https://farmui.com',
-        author: {
-            name: "Abakiya",
-            url: "https://abakiya.vercel.app",
-            avatar: ayalkbetsIcon,
-          },
-    },
-    {
-        title: 'Luxe UI',
-        image : luxeui,
-        tags: ["UI/UX"],
-        url: 'https://luxeui.com',
-        author: {
-            name: "Abakiya",
-            url: "https://abakiya.vercel.app",
-            avatar: ayalkbetsIcon,
-          },
-    },
-    {
-        title: 'Next UI',
-        image : nextui,
-        tags: ["UI/UX"],
-        url: 'https://nextui.org',
-        author: {
-            name: "Abakiya",
-            url: "https://abakiya.vercel.app",
-            avatar: ayalkbetsIcon,
-          },
-    },
-    {
         title: 'UI Verse',
         image : uiverse,
         tags: ["UI/UX"],
@@ -91,6 +131,18 @@ export const uiuxKit = [
             avatar: ayalkbetsIcon,
           },
     },
+    {
+        title: 'Aceternity UI',
+        image : aceternity,
+        tags: ["UI/UX"],
+        url: 'https://ui.aceternity.com/',
+        author: {
+            name: "Abakiya",
+            url: "https://abakiya.vercel.app",
+            avatar: ayalkbetsIcon,
+          },
+    },
+    
     {
         title: 'UI Ibelick',
         image : ibelickui,
@@ -147,10 +199,32 @@ export const uiuxKit = [
           },
     },
     {
-        title: 'Animata',
-        image : animata,
+        title: 'Nuxt UI',
+        image : nuxtui,
         tags: ["UI/UX"],
-        url: 'https://animata.design',
+        url: 'https://ui.nuxt.com/',
+        author: {
+            name: "Abakiya",
+            url: "https://abakiya.vercel.app",
+            avatar: ayalkbetsIcon,
+          },
+    },
+    {
+        title: 'Chakra',
+        image : chakra,
+        tags: ["UI/UX"],
+        url: 'https://chakra-ui.com/',
+        author: {
+            name: "Abakiya",
+            url: "https://abakiya.vercel.app",
+            avatar: ayalkbetsIcon,
+          },
+    },
+    {
+        title: 'Mantine',
+        image : mantine,
+        tags: ["UI/UX"],
+        url: 'https://mantine.dev/',
         author: {
             name: "Abakiya",
             url: "https://abakiya.vercel.app",

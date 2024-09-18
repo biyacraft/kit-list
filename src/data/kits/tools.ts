@@ -9,6 +9,7 @@ import seesaw from "@/assets/images/seesaw.png";
 import supercreative from "@/assets/images/supercreative.png";
 import superpower from "@/assets/images/superpower.png";
 import openhomes from "@/assets/images/openhomes.png";
+import markflow from "@/assets/images/markflow.png";
 
 export type Kit = {
     title?: string;
@@ -114,6 +115,17 @@ export const toolsKit = [
       image : openhomes,
       tags: ["Tools"],
       url: 'https://openhomes.xyz',
+      author: {
+          name: "Abakiya",
+          url: "https://abakiya.vercel.app",
+          avatar: ayalkbetsIcon,
+        },
+    },
+    {
+      title: 'Markflow',
+      image : markflow,
+      tags: ["Tools"],
+      url: 'https://markflow.app',
       author: {
           name: "Abakiya",
           url: "https://abakiya.vercel.app",

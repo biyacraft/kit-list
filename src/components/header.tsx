@@ -12,7 +12,7 @@ import {
 } from './ui/dialog';
 import { useTheme } from 'next-themes';
 
-import { GitHubLogoIcon, HeartFilledIcon, MoonIcon, SunIcon } from '@radix-ui/react-icons';
+import { GitHubLogoIcon, HeartFilledIcon, InfoCircledIcon, MoonIcon, SunIcon } from '@radix-ui/react-icons';
 import { Coffee, MailIcon } from 'lucide-react';
 import { CopyButton } from './copy-button';
 import { Button } from './ui/button';
@@ -32,7 +32,7 @@ export function Header() {
   };
 
   return (
-    <div className="md:fixed fixed top-0 z-10 px-6 py-2 w-full flex justify-between items-center bg-black backdrop-filter backdrop-blur-sm bg-opacity-25 outline outline-2 outline-black/35 dark:outline-white/30">
+    <div className="md:fixed fixed top-0 z-10 px-6 py-2 w-full flex justify-between items-center bg-black backdrop-filter backdrop-blur-sm bg-opacity-25 outline outline-1 outline-black/35 dark:outline-white/30">
       <Link href="/" className="font-sans bg-gradient-to-b from-gray-900 to-gray-600 dark:bg-gradient-to-b dark:from-gray-100 dark:to-gray-400 text-transparent bg-clip-text text-xl md:text-2xl lg:text-3xl">
         <div className="font-bold">Kit List</div>
       </Link>
@@ -55,7 +55,7 @@ export function Header() {
               variant="ghost"
               className="hover:bg-transparent p-0 text-sm font-medium"
             >
-              About
+              <InfoCircledIcon />
             </Button>
           </DialogTrigger>
           <DialogContent>
@@ -75,7 +75,10 @@ export function Header() {
               <br />
               <div className="flex justify-center items-center gap-2">
                 <MailIcon className="size-6 p-4" />
-                <div className="p-4">
+                <div className="p-4 flex gap-2">
+                  <a href='mailto:ayalkbettesfahun@gmail.com' className='cursor-pointer' >
+                  <MailIcon />
+                  </a>
                   <CopyButton content={"ayalkbettesfahun@gmail.com"} />
                 </div>
                 <div>
@@ -90,7 +93,7 @@ export function Header() {
                 <HeartFilledIcon className="mt-1" />
                 <div>and</div>
                 <Coffee className="size-4" />
-                <Link href="https://github.com/abakiya/kit-list">by Abakiya</Link>
+                <Link href="https://abakiya.vercel.app">by Abakiya</Link>
               </div>
             </DialogDescription>
           </DialogContent>

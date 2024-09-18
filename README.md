@@ -19,7 +19,7 @@ We welcome contributions to the Kit List! If you have a useful tool or resource 
 1. **Fork the repository** to your GitHub account.
 2. **Clone the repository** to your local machine:
    ```bash
-   git clone https://github.com/your-username/kit-list.git
+   git clone https://github.com/abakiya/kit-list.git
    cd kit-list```
 3. **Navigate to the src/data/kits directory** This is where the list of kits is stored.
 ```
@@ -56,7 +56,7 @@ export const uiuxKit = [
     },
 ]
 ```
-6. ***Navigate to the src/data/index.ts file*** This is where import the kit you added data. The code should look something like this:
+6. ***Navigate to the src/data/index.ts file*** This is where import the data you added. The code should look something like this:
 ``` 
 export const kits = [
   ...toolsKit,
@@ -70,9 +70,8 @@ export const kits = [
   ...yourkitname,
 ];
 ```
-7. ***Add an image of the website*** 
-Add an image (screenshot) of the website to the src/assets/image directory. Name the image file to match the kit's name, using lowercase (e.g., myawesomekit.png).
-
+7. ***Add an image of the website and avatar of your self*** 
+Add an image (screenshot) of the website and your avatar which is displayed on the card to the src/assets/image directory. Name the image file to match the website's name and your name respectively, using lowercase (e.g., myawesomekit.png).
 8. ***Commit your changes***
 9. ***Push your changes to your GitHub fork***
 10. ***Submit a Pull Request***

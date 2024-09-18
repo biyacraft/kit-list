@@ -3,6 +3,7 @@ import spline from "@/assets/images/spline.png";
 import ayalkbetsIcon from "@/assets/images/abio.ico";
 import iconmetric from "@/assets/images/iconmetric.png";
 import minimalmockups from "@/assets/images/minimalmockups.png";
+import scaleai from "@/assets/images/scaleai.png";
 
 export const threeDKit = [
     {
@@ -49,4 +50,16 @@ export const threeDKit = [
             avatar: ayalkbetsIcon,
           },
     },
+    {
+        title: 'Scale AI',
+        image : scaleai,
+        tags: ["3D"],
+        url: 'https://scale.com',
+        author: {
+            name: "Abakiya",
+            url: "https://abakiya.vercel.app",
+            avatar: ayalkbetsIcon,
+          },
+    },
+
 ]

@@ -65,7 +65,6 @@ export default function RootLayout({
               </Button>
             </a>
             <MiniMenu />
-
           </div>
           <Toaster />
         </ThemeProvider>

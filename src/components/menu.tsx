@@ -37,7 +37,7 @@ export function Menu() {
   };
 
   return (
-    <aside className="w-64 p-4 flex flex-col outline outline-2 outline-black/35 dark:outline-white/30 outline-">
+    <aside className="w-64 p-4 flex flex-col outline outline-black/35 dark:outline-white/30 outline-1">
       {/* Search input */}
       <SearchInput onSearch={(term) => setSections(allSections.filter((section) => section.tag.toLowerCase().includes(term)))} clearSearch={clearSearch} />
       <Separator className="mb-4 -mt-1 z-10" />
@@ -65,7 +65,7 @@ export function Menu() {
       <Separator className="my-4 w-16" />
       </div>
       <a
-        href="https://github.com/abakiya/kitlist"
+        href="https://github.com/abakiya/kit-list"
         target="_blank"
         rel="noreferrer"
       >
