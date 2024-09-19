@@ -65,7 +65,7 @@ export function Menu() {
       <Separator className="my-4 w-16" />
       </div>
       <a
-        href="https://github.com/abakiya/kit-list"
+        href="https://github.com/biyacraft/kit-list"
         target="_blank"
         rel="noreferrer"
       >

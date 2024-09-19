@@ -9,8 +9,8 @@ export const databaseKit = [
         tags: ["Database"],
         url: 'https://sql-studio.onrender.com',
         author: {
-            name: "Abakiya",
-            url: "https://abakiya.vercel.app",
+            name: "Biya",
+            url: "https://biyacraft.vercel.app",
             avatar: ayalkbetsIcon,
           },
     },

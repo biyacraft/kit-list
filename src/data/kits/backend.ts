@@ -11,8 +11,8 @@ export const backendKit = [
         tags: ["Backend"],
         url: 'https://authkit.com',
         author: {
-            name: "Abakiya",
-            url: "https://abakiya.vercel.app",
+            name: "Biyacraft",
+            url: "https://biyacraft.vercel.app",
             avatar: ayalkbetsIcon,
           },
     },
@@ -22,8 +22,8 @@ export const backendKit = [
         tags: ["Backend"],
         url: 'https://hoppscotch.com',
         author: {
-            name: "Abakiya",
-            url: "https://abakiya.vercel.app",
+            name: "Biyacraft",
+            url: "https://biyacraft.vercel.app",
             avatar: ayalkbetsIcon,
           },
     },
@@ -33,8 +33,8 @@ export const backendKit = [
         tags: ["Backend"],
         url: 'https://evervault.com',
         author: {
-            name: "Abakiya",
-            url: "https://abakiya.vercel.app",
+            name: "Biyacraft",
+            url: "https://biyacraft.vercel.app",
             avatar: ayalkbetsIcon,
           },
     },
@@ -44,8 +44,8 @@ export const backendKit = [
         tags: ["Backend"],
         url: 'https://better-auth.com',
         author: {
-            name: "Abakiya",
-            url: "https://abakiya.vercel.app",
+            name: "Biyacraft",
+            url: "https://biyacraft.vercel.app",
             avatar: ayalkbetsIcon,
           },
     },

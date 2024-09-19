@@ -52,7 +52,7 @@ export default function RootLayout({
             {children}
 
             <a
-              href="https://github.com/abakiya/kit-list"
+              href="https://github.com/biyyacraft/kit-list"
               target="_blank"
               rel="noreferrer"
             >

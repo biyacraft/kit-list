@@ -18,7 +18,7 @@ export function Banner() {
 
   return (
     <a
-      href="https://abakiya.vercel.app"
+      href="https://biyacraft.vercel.app"
       target="_blank"
       rel="noreferrer"
     >

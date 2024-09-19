@@ -9,8 +9,8 @@ export const portfolioKit = [
         tags: ["Portfolio", "3D"],
         url: 'https://wojtek.im/',
         author: {
-            name: "Abakiya",
-            url: "https://abakiya.vercel.app",
+            name: "biyacraft",
+            url: "https://biyacraft.vercel.app",
             avatar: ayalkbetsIcon,
           },
     },
@@ -20,8 +20,8 @@ export const portfolioKit = [
         tags: ["Portfolio"],
         url: 'https://yihui.work/',
         author: {
-            name: "Abakiya",
-            url: "https://abakiya.vercel.app",
+            name: "biyacraft",
+            url: "https://biyacraft.vercel.app",
             avatar: ayalkbetsIcon,
           },
     }

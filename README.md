@@ -19,7 +19,7 @@ We welcome contributions to the Kit List! If you have a useful tool or resource 
 1. **Fork the repository** to your GitHub account.
 2. **Clone the repository** to your local machine:
    ```bash
-   git clone https://github.com/abakiya/kit-list.git
+   git clone https://github.com/biyacraft/kit-list.git
    cd kit-list```
 3. **Navigate to the src/data/kits directory** This is where the list of kits is stored.
 ```
@@ -38,8 +38,8 @@ export const uiuxKit = [
         tags: ["UI/UX"],
         url: 'https://animata.design',
         author: {
-            name: "Abakiya",
-            url: "https://abakiya.vercel.app",
+            name: "Biya",
+            url: "https://biyacraft.vercel.app",
             avatar: ayalkbetsIcon,
           },
     },
@@ -49,8 +49,8 @@ export const uiuxKit = [
         tags: ["UI/UX"],
         url: 'https://svgl.app',
         author: {
-            name: "Abakiya",
-            url: "https://abakiya.vercel.app",
+            name: "Biya",
+            url: "https://biyacraft.vercel.app",
             avatar: ayalkbetsIcon,
           },
     },

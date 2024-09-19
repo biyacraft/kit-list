@@ -38,7 +38,7 @@ export function Header() {
       </Link>
       <div className="flex items-center gap-4">
         <Link
-          href="https://github.com/abakiya/kit-list"
+          href="https://github.com/biyacraft/kit-list"
           className="flex items-center gap-2 text-sm font-medium"
         >
           <GitHubLogoIcon />
@@ -67,7 +67,7 @@ export function Header() {
               <br />
               <br />
               Feel free to create your own kit list by contributing on{' '}
-              <a href="https://github.com/abakiya/kit-list" className="underline">
+              <a href="https://github.com/biyacraft/kit-list" className="underline">
                 GitHub.
               </a>
               <br />
@@ -93,7 +93,7 @@ export function Header() {
                 <HeartFilledIcon className="mt-1" />
                 <div>and</div>
                 <Coffee className="size-4" />
-                <Link href="https://abakiya.vercel.app">by Abakiya</Link>
+                <Link href="https://biyacraft.vercel.app">by Biyacraft</Link>
               </div>
             </DialogDescription>
           </DialogContent>
