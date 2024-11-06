@@ -25,7 +25,7 @@ export const uiuxKit = [
         title: 'Shadcn/ui',
         image : shadcn,
         tags: ["UI/UX"],
-        url: 'https://ui.shadecn.com',
+        url: 'https://ui.shadcn.com',
         author: {
             name: "biyacraft",
             url: "https://biyacraft.vercel.app",
