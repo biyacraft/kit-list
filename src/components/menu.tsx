@@ -65,7 +65,7 @@ export function Menu() {
       <Separator className="my-4 w-16" />
       </div>
       <a
-        href="https://github.com/biyacraft/kit-list"
+        href="https://tally.so/r/wQBg81"
         target="_blank"
         rel="noreferrer"
       >
@@ -73,7 +73,7 @@ export function Menu() {
           className="w-full bg-[#ddddd9] hover:bg-[#b6b6b3] text-black border border-black rounded-full items-center justify-center gap-2 font-medium hidden md:flex dark:bg-[#2c2c1f] dark:text-white dark:border-gray-600"
           variant="outline"
         >
-          <span>Add Kit</span> <PlusIcon className="w-4 h-4" />
+          <span>Submit</span> <PlusIcon className="w-4 h-4" />
         </Button>
       </a>
     </aside>

@@ -11,7 +11,7 @@ import { MiniMenu } from "@/components/mini-menu";
 
 export const metadata: Metadata = {
   title: "KitList",
-  description: "Find the best kits for your daily activities",
+  description: "A curated list of tools for Productivity, Design and Development",
 };
 
 export const viewport = {
@@ -24,6 +24,7 @@ export const viewport = {
     { media: "(prefers-color-scheme: dark)" },
   ],
 };
+
 
 export default function RootLayout({
   children,
@@ -52,7 +53,7 @@ export default function RootLayout({
             {children}
 
             <a
-              href="https://github.com/biyyacraft/kit-list"
+              href="https://tally.so/r/wQBg81"
               target="_blank"
               rel="noreferrer"
             >
@@ -68,13 +69,6 @@ export default function RootLayout({
           </div>
           <Toaster />
         </ThemeProvider>
-        <noscript>
-        <img 
-        src="https://queue.simpleanalyticscdn.com/noscript.gif" 
-        alt="" 
-        referrerPolicy="no-referrer-when-downgrade" 
-        />
-      </noscript>
       </body>
         {/* Simple Analytics Script */}
         <Script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></Script>
