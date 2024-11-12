@@ -2,7 +2,7 @@ import wojtech from "@/assets/images/wojtech.png";
 import ayalkbetsIcon from "@/assets/images/abio.ico";
 import yihui from "@/assets/images/yihui.png";
 import david from "@/assets/images/david.png";
-
+import biya from "@/assets/images/biya.png";
 export const portfolioKit = [
     {
         title: 'David Lighthouse',
@@ -31,6 +31,17 @@ export const portfolioKit = [
         image : yihui,
         tags: ["Portfolio"],
         url: 'https://yihui.work/',
+        author: {
+            name: "biyacraft",
+            url: "https://biyacraft.vercel.app",
+            avatar: ayalkbetsIcon,
+          },
+    },
+    {
+        title: 'Biyacraft',
+        image : biya,
+        tags: ["Portfolio"],
+        url: 'https://biyacraft.vercel.app',
         author: {
             name: "biyacraft",
             url: "https://biyacraft.vercel.app",

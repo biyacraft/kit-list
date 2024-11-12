@@ -18,6 +18,7 @@ import aceternity from "@/assets/images/aceternity.png";
 import radixui from "@/assets/images/radixui.png";
 import mantine from "@/assets/images/mantine.png";
 import shadcn from "@/assets/images/shadcn.png";
+import meltui from "@/assets/images/meltui.png";
 
 
 export const uiuxKit = [
@@ -92,6 +93,17 @@ export const uiuxKit = [
         image : bentogrids,
         tags: ["UI/UX"],
         url: 'https://bentogrids.com/',
+        author: {
+            name: "biyacraft",
+            url: "https://biyacraft.vercel.app",
+            avatar: ayalkbetsIcon,
+          },
+    },
+    {
+        title: 'Melt UI',
+        image : meltui,
+        tags: ["UI/UX"],
+        url: 'https://www.melt-ui.com/',
         author: {
             name: "biyacraft",
             url: "https://biyacraft.vercel.app",
